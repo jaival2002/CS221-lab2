@@ -1,0 +1,107 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    top:130px;
+    position: relative;
+    margin-bottom: 200px;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 90px;
+    line-height: 130%;
+}
+
+ul, li {
+    list-style: none;
+    margin: 10px 0;
+}
+nav{
+    font-size: larger;
+    background-color: rgb(192, 206, 255);
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    font-weight: 200;
+}
+img{
+    
+}
+
+
+.lissst{
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+nav ul {
+    padding: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+body,ul{
+    margin: 0;
+    padding: 0;
+}
+.mee {
+    max-height: 90%;
+    max-width: 90%;
+    border-radius: 10%;
+    box-shadow: 1 2 30px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+.stuffido{
+    margin-left: 24%;
+    text-align: left;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.h2contact {
+    margin-top: 20px;
+}
+
+.stuff{
+    max-height: 500px;
+    max-height: 500px;
+}
+
+.sectionresume{
+    margin: 30px;
+}
+
+.contactme {
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.pics{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,300px));
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.gpics{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
